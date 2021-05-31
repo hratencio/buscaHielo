@@ -1,0 +1,33 @@
+html, body {
+    min-height: 100%;
+}
+
+#logo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://cdn.kegerators.com/img/best-beer-coolers.jpg);
+    color: rgb(192, 10, 10);
+}
+.cuerpo{
+   margin: auto;
+   text-align: center;
+   border: 3px solid blue;
+   border-radius: 5px;
+   width: 50%;
+}
+ body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#ruletaImg{
+    margin: 10px;
+}
+
+footer{
+    margin-top: auto;
+    height: 10%;
+    background: rgb(2,0,36);
+ background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);}
